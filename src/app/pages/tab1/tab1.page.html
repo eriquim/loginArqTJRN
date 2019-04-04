@@ -1,12 +1,17 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>
+ <ion-nav>
+     <ion-title>
       Tab One
     </ion-title>
-  </ion-toolbar>
+    <button ion-button clear (click)="logout()">
+      <ion-icon name="log-out"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-nav>
 </ion-header>
 
 <ion-content>
+
     <ion-card class="welcome-card">
       <ion-img src="/assets/shapes.svg"></ion-img>
       <ion-card-header>
